@@ -1,2 +1,2 @@
 AuthType WebAuth
-require user <instructor sunet>
+require user jtaylo

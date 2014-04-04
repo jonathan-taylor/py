@@ -1,13 +1,13 @@
 ################Configurable variables##################################
 ## It is assumed admin, client and WORK are under this directory
 ## Default suggestions are for Stanford
-APP_DIR = '<afs_path_to_home_dir>/cgi-bin/stat390' ## Change if you copy
-APP_WEBROOT = '<your_web_URL>/cgi-bin/stat390' ## Note URL!
+APP_DIR = '/afs/ir/class/stats390/cgi-bin/stat390' ## Change if you copy
+APP_WEBROOT = 'http://stats390.stanford.edu/cgi-bin/stat390' ## Note URL!
 APP_LOGGING = False  ## Allowable values True/False
 LOG_DIR = APP_DIR + '/LOG' ## If logging is true above, ensure this exists
-SMTP_SERVER = 'smtp.yourdomain' ## e.g. smtp.stanford.edu
+SMTP_SERVER = 'smtp.stanford.edu' ## e.g. smtp.stanford.edu
 CONSULTANTS_CSV = APP_DIR + "/WORK/consultants/enrolled.csv" # change appropriately
-INSTRUCTOR_EMAIL = "<sunet_id>@stanford.edu" # change appropriately
+INSTRUCTOR_EMAIL = "jonathan.taylor@stanford.edu" # change appropriately
 
 ## display value; the corresponding blackout_time is computed below automatically
 ## i.e. AVAILABLE_DATES[i] will not be shown as a choice after BLACKOUT_TIMES[i]
