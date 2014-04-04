@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append("../WORK")
-
+sys.path.append("/afs/ir.stanford.edu/users/j/t/jtaylo/stats390/stat390/WORK/")
 from stat390common import *
+
 # the user sees what's below upon successful post
 reqIndexHTML = """
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
